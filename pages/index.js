@@ -177,13 +177,14 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Kalorienrechner.de" />
         <meta name="language" content="de" />
-        <link rel="canonical" href="https://www.kalorienrechner.de/" />
+        <link rel="canonical" href="https://www.kalorienrechner9.de/" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
         <meta property="og:title" content="Kalorienrechner 2026 – Kalorienbedarf berechnen" />
         <meta property="og:description" content="Kostenloser Kalorienrechner: Grundumsatz & Gesamtumsatz berechnen. Mit Makronährstoffen für Abnehmen, Gewicht halten & Zunehmen." />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="de_DE" />
-        <meta property="og:url" content="https://www.kalorienrechner.de/" />
+        <meta property="og:url" content="https://www.kalorienrechner9.de/" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Kalorienrechner 2026 – Grundumsatz & Kalorienbedarf" />
