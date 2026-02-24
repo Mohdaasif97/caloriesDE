@@ -178,7 +178,7 @@ export default function Home() {
         <meta name="author" content="Kalorienrechner.de" />
         <meta name="language" content="de" />
         <link rel="canonical" href="https://www.kalorienrechner9.de/" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
           <meta property="og:title" content="Kalorienrechner 2026 – Kalorienbedarf berechnen" />
           <meta property="og:description" content="Kostenloser Kalorienrechner: Grundumsatz & Gesamtumsatz berechnen. Mit Makronährstoffen für Abnehmen, Gewicht halten & Zunehmen." />
