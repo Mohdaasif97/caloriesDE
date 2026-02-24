@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from 'next/head'
 import { useState, useCallback } from 'react';
 import styles from '../styles/Home.module.css';
 
@@ -180,24 +180,24 @@ export default function Home() {
         <link rel="canonical" href="https://www.kalorienrechner9.de/" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-        <meta property="og:title" content="Kalorienrechner 2026 – Kalorienbedarf berechnen" />
-        <meta property="og:description" content="Kostenloser Kalorienrechner: Grundumsatz & Gesamtumsatz berechnen. Mit Makronährstoffen für Abnehmen, Gewicht halten & Zunehmen." />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="de_DE" />
-        <meta property="og:url" content="https://www.kalorienrechner9.de/" />
+          <meta property="og:title" content="Kalorienrechner 2026 – Kalorienbedarf berechnen" />
+          <meta property="og:description" content="Kostenloser Kalorienrechner: Grundumsatz & Gesamtumsatz berechnen. Mit Makronährstoffen für Abnehmen, Gewicht halten & Zunehmen." />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="de_DE" />
+          <meta property="og:url" content="https://www.kalorienrechner9.de/" />
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kalorienrechner 2026 – Grundumsatz & Kalorienbedarf" />
-        <meta name="twitter:description" content="Kostenloser Kalorienrechner 2026 für Deutschland. Kalorienbedarf, Grundumsatz und Makronährstoffe sofort berechnen." />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Kalorienrechner 2026 – Grundumsatz & Kalorienbedarf" />
+          <meta name="twitter:description" content="Kostenloser Kalorienrechner 2026 für Deutschland. Kalorienbedarf, Grundumsatz und Makronährstoffe sofort berechnen." />
 
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaApp) }} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaApp) }} />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="utf-8" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta charSet="utf-8" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+          <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
 
       <div className={styles.page}>
@@ -376,7 +376,7 @@ export default function Home() {
                         <span className={styles.mainUnit}>kcal/Tag</span>
                         <span className={styles.mainHint}>
                           {ergebnis.zielDelta < 0 ? `${Math.abs(ergebnis.zielDelta)} kcal Defizit` :
-                           ergebnis.zielDelta > 0 ? `+${ergebnis.zielDelta} kcal Überschuss` : 'Erhaltungsbedarf'}
+                            ergebnis.zielDelta > 0 ? `+${ergebnis.zielDelta} kcal Überschuss` : 'Erhaltungsbedarf'}
                         </span>
                       </div>
                     </div>
@@ -485,7 +485,7 @@ export default function Home() {
                       ['36–45 Jahre', '2.300–2.600 kcal', '1.800–2.000 kcal', '1.300–1.500 kcal', '1.800–2.100 kcal'],
                       ['46–55 Jahre', '2.200–2.500 kcal', '1.700–1.900 kcal', '1.200–1.400 kcal', '1.700–2.000 kcal'],
                       ['56–65 Jahre', '2.100–2.400 kcal', '1.600–1.800 kcal', '1.100–1.300 kcal', '1.600–1.900 kcal'],
-                      ['65+ Jahre',   '1.900–2.200 kcal', '1.500–1.700 kcal', '1.000–1.200 kcal', '1.400–1.700 kcal'],
+                      ['65+ Jahre', '1.900–2.200 kcal', '1.500–1.700 kcal', '1.000–1.200 kcal', '1.400–1.700 kcal'],
                     ].map((row, i) => (
                       <tr key={i}>{row.map((c, j) => <td key={j}>{c}</td>)}</tr>
                     ))}
@@ -613,9 +613,9 @@ export default function Home() {
           <div className={styles.container}>
             <div className={styles.footerTop}>
               <div className={styles.footerBrand}>
-                <div className={styles.logo} style={{marginBottom:'10px'}}>
+                <div className={styles.logo} style={{ marginBottom: '10px' }}>
                   <span className={styles.logoIcon}>🔥</span>
-                  <span style={{color:'#fff',fontWeight:800}}>Kalorienrechner<span className={styles.logoAccent}>.de</span></span>
+                  <span style={{ color: '#fff', fontWeight: 800 }}>Kalorienrechner<span className={styles.logoAccent}>.de</span></span>
                 </div>
                 <p>Ihr kostenloser Online-Kalorienrechner für Deutschland. Grundumsatz, Gesamtumsatz und Makronährstoffe berechnen.</p>
               </div>
