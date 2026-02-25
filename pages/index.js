@@ -214,6 +214,7 @@ export default function Home() {
               <a href="#ernaehrung">Ernährung</a>
               <a href="#tipps">Tipps</a>
               <a href="#faq">FAQ</a>
+              <a href="/contact">Kontakt</a>
             </nav>
           </div>
         </header>
@@ -624,6 +625,7 @@ export default function Home() {
                 <a href="#ernaehrung">Ernährungstipps</a>
                 <a href="#tipps">Abnehmen</a>
                 <a href="#faq">FAQ</a>
+                <a href="/contact">Kontakt</a>
               </div>
             </div>
             <p className={styles.footerNote}>
