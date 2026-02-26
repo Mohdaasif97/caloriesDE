@@ -43,7 +43,7 @@ export default function Contact() {
 
     try {
       // Send email via API route
-      const response = await fetch('/api/contact', {
+      const response = await fetch('https://formspree.io/f/mnjbwoyk', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
