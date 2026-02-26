@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useState, useCallback } from 'react';
 import styles from '../styles/Home.module.css';
+import Footer from '../components/Footer';
 
 // PAL activity levels
 const PAL_LEVELS = [
@@ -610,29 +611,7 @@ export default function Home() {
 
         </main>
 
-        <footer className={styles.footer}>
-          <div className={styles.container}>
-            <div className={styles.footerTop}>
-              <div className={styles.footerBrand}>
-                <div className={styles.logo} style={{ marginBottom: '10px' }}>
-                  <span className={styles.logoIcon}>🔥</span>
-                  <span style={{ color: '#fff', fontWeight: 800 }}>Kalorienrechner<span className={styles.logoAccent}>.de</span></span>
-                </div>
-                <p>Ihr kostenloser Online-Kalorienrechner für Deutschland. Grundumsatz, Gesamtumsatz und Makronährstoffe berechnen.</p>
-              </div>
-              <div className={styles.footerLinks}>
-                <a href="#rechner">Kalorienrechner</a>
-                <a href="#ernaehrung">Ernährungstipps</a>
-                <a href="#tipps">Abnehmen</a>
-                <a href="#faq">FAQ</a>
-                <a href="/contact">Kontakt</a>
-              </div>
-            </div>
-            <p className={styles.footerNote}>
-              © 2026 Kalorienrechner.de — Alle Angaben ohne Gewähr. Die Berechnung des Kalorienbedarfs dient zur Orientierung. Bei medizinischen Fragen oder Erkrankungen wenden Sie sich an einen Arzt oder Ernährungsberater.
-            </p>
-          </div>
-        </footer>
+        <Footer includeSchema={true} />
       </div>
     </>
   );
