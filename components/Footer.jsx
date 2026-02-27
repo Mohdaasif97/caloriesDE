@@ -42,8 +42,8 @@ export default function Footer({ includeSchema = true }) {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Kalorienrechner.de',
-    url: 'https://kalorienrechner.de',
-    logo: 'https://kalorienrechner.de/logo.png',
+    url: 'https://www.kalorienrechner9.de',
+    logo: 'https://www.kalorienrechner9.de/logo.png',
     description: 'Kostenloser Online-Kalorienrechner für Deutschland. Berechne deinen Grundumsatz, Gesamtumsatz und Makronährstoffe.',
     sameAs: socialLinks.map(link => link.url),
     founder: {
