@@ -169,6 +169,29 @@ export default function Home() {
     ]
   };
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Kalorienrechner 2026 – Kalorienbedarf berechnen",
+    "description": "Kostenloser Kalorienrechner für Deutschland. Grundumsatz & Gesamtumsatz mit der Mifflin-St. Jeor-Formel berechnen. Inklusive Makronährstoffe für Abnehmen, Halten oder Zunehmen.",
+    "author": {
+      "@type": "Organization",
+      "name": "Kalorienrechner.de",
+      "url": "https://www.kalorienrechner9.de"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Kalorienrechner.de",
+      "url": "https://www.kalorienrechner9.de"
+    },
+    "datePublished": "2026-01-01",
+    "dateModified": "2026-02-25",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.kalorienrechner9.de/"
+    }
+  };
+
   return (
     <>
       <Head>
@@ -186,6 +209,9 @@ export default function Home() {
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="de_DE" />
           <meta property="og:url" content="https://www.kalorienrechner9.de/" />
+          <meta property="og:image" content="https://www.kalorienrechner9.de/og-image.png" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
 
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Kalorienrechner 2026 – Grundumsatz & Kalorienbedarf" />
@@ -193,6 +219,7 @@ export default function Home() {
 
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaApp) }} />
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
@@ -215,7 +242,6 @@ export default function Home() {
               <a href="#ernaehrung">Ernährung</a>
               <a href="#tipps">Tipps</a>
               <a href="#faq">FAQ</a>
-              <a href="/contact">Kontakt</a>
             </nav>
           </div>
         </header>

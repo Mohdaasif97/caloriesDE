@@ -46,11 +46,6 @@ export default function Footer({ includeSchema = true }) {
     logo: 'https://kalorienrechner.de/logo.png',
     description: 'Kostenloser Online-Kalorienrechner für Deutschland. Berechne deinen Grundumsatz, Gesamtumsatz und Makronährstoffe.',
     sameAs: socialLinks.map(link => link.url),
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'Customer Support',
-      url: 'https://kalorienrechner.de/contact',
-    },
     founder: {
       '@type': 'Person',
       name: 'Mohd Aasif',
@@ -157,7 +152,6 @@ export default function Footer({ includeSchema = true }) {
               <a href="#ernaehrung">Ernährungstipps</a>
               <a href="#tipps">Abnehmen</a>
               <a href="#faq">FAQ</a>
-              <a href="/contact">Kontakt</a>
               <a href="/impressum" style={{ marginTop: '8px' }}>
                 Impressum
               </a>
