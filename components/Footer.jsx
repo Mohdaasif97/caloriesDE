@@ -152,10 +152,7 @@ export default function Footer({ includeSchema = true }) {
               <a href="#ernaehrung">Ernährungstipps</a>
               <a href="#tipps">Abnehmen</a>
               <a href="#faq">FAQ</a>
-              <a href="/impressum" style={{ marginTop: '8px' }}>
-                Impressum
-              </a>
-              <a href="/datenschutz">Datenschutz</a>
+
             </div>
           </div>
 
