@@ -24,7 +24,7 @@ export default function Footer() {
             <div className={styles.footerBrand}>
               <div className={styles.logo} style={{ marginBottom: '10px' }}>
                 <span className={styles.logoIcon}>🔥</span>
-                <span style={{ color: '#f1f5f9', fontWeight: 800 }}>
+                <span className={styles.footerBrandName}>
                   Kalorienrechner
                   <span className={styles.logoAccent}>.de</span>
                 </span>
@@ -36,7 +36,7 @@ export default function Footer() {
 
             {/* Navigation Links */}
             <div className={styles.footerLinks}>
-              <h3 style={{ fontSize: '14px', fontWeight: '600', marginBottom: '12px', color: '#f1f5f9' }}>Navigation</h3>
+              <h3 className={styles.footerNavTitle}>Navigation</h3>
               <a href="#rechner">Kalorienrechner</a>
               <a href="#ernaehrung">Ernährungstipps</a>
               <a href="#tipps">Abnehmen</a>
@@ -49,7 +49,7 @@ export default function Footer() {
             <p className={styles.footerNote}>
               © {new Date().getFullYear()} Kalorienrechner.de — Alle Angaben ohne Gewähr. Die Berechnung des Kalorienbedarfs dient zur Orientierung. Bei medizinischen Fragen oder Erkrankungen wenden Sie sich an einen Arzt oder Ernährungsberater.
             </p>
-            <div style={{ marginTop: '12px', fontSize: '13px', color: 'rgba(255, 255, 255, 0.85)', display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
+            <div className={styles.footerMeta}>
               <span>📍 Verfügbar in: Deutschland, Österreich, Schweiz</span>
               <span>⚡ Schnelle und sichere Berechnung ohne Datenverkauf</span>
             </div>

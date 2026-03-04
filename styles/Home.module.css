@@ -684,6 +684,27 @@
   color: rgba(255,255,255,0.8);
 }
 
+.footerBrandName {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.footerNavTitle {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.footerMeta {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #ffffff;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .footerTop {
   display: flex;
   justify-content: space-between;
