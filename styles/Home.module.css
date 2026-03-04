@@ -41,7 +41,7 @@
 }
 
 .logoIcon { font-size: 1.4rem; }
-.logoAccent { color: #22c55e; }
+.logoAccent { color: #15803d; }
 
 .nav { display: flex; gap: 28px; }
 .nav a {
@@ -225,7 +225,7 @@
   color: #181c2e;
   margin-bottom: 6px;
 }
-.calcHeader p { color: #777; font-size: 0.95rem; }
+.calcHeader p { color: #595959; font-size: 0.95rem; }
 
 /* Steps */
 .stepBlock {
@@ -291,7 +291,7 @@
 .genderActive {
   background: #f0fdf4;
   border-color: #22c55e;
-  color: #16a34a;
+  color: #14532d;
 }
 
 /* Input grid */
@@ -339,9 +339,8 @@
   right: 12px;
   font-size: 0.78rem;
   font-weight: 700;
-  color: #bbb;
+  color: #767676;
   pointer-events: none;
-}
 
 /* Activity list */
 .activityList {
@@ -370,8 +369,8 @@
 .activityPal {
   font-size: 0.8rem;
   font-weight: 800;
-  color: #22c55e;
-  background: rgba(34,197,94,0.1);
+  color: #14532d;
+  background: rgba(34,197,94,0.15);
   padding: 3px 10px;
   border-radius: 100px;
 }
@@ -398,8 +397,8 @@
   line-height: 1.4;
 }
 
-.goalBtn:hover { border-color: #22c55e; color: #16a34a; background: #f0fdf4; }
-.goalActive { border-color: #22c55e; background: #f0fdf4; color: #16a34a; }
+.goalBtn:hover { border-color: #22c55e; color: #14532d; background: #f0fdf4; }
+.goalActive { border-color: #22c55e; background: #f0fdf4; color: #14532d; }
 
 .errorMsg {
   background: #fef2f2;
@@ -462,7 +461,7 @@
 
 .resultHeader { margin-bottom: 28px; }
 .resultHeader h2 { font-size: 1.5rem; font-weight: 800; color: #181c2e; margin-bottom: 4px; }
-.resultHeader p { color: #777; font-size: 0.9rem; }
+.resultHeader p { color: #595959; font-size: 0.9rem; }
 
 .mainResults {
   display: flex;
@@ -491,12 +490,12 @@
   box-shadow: 0 4px 20px rgba(34,197,94,0.15);
 }
 
-.mainLabel { font-size: 0.78rem; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.04em; }
+.mainLabel { font-size: 0.78rem; font-weight: 700; color: #595959; text-transform: uppercase; letter-spacing: 0.04em; }
 .mainNum { font-size: 2rem; font-weight: 900; color: #181c2e; line-height: 1.1; }
-.mainUnit { font-size: 0.82rem; color: #aaa; font-weight: 600; }
+.mainUnit { font-size: 0.82rem; color: #595959; font-weight: 600; }
 .mainHint { font-size: 0.78rem; color: #22c55e; font-weight: 700; margin-top: 4px; }
 
-.arrow { font-size: 1.4rem; color: #ccc; flex-shrink: 0; }
+.arrow { font-size: 1.4rem; color: #767676; flex-shrink: 0; }
 
 /* Macros */
 .macroSection { margin-bottom: 24px; }
@@ -523,9 +522,9 @@
 .macroKarbs   { background: #ede9fe; border: 2px solid #a78bfa; }
 
 .macroIcon { font-size: 1.6rem; }
-.macroName { font-size: 0.78rem; font-weight: 700; color: #555; text-transform: uppercase; letter-spacing: 0.05em; }
+.macroName { font-size: 0.78rem; font-weight: 700; color: #444; text-transform: uppercase; letter-spacing: 0.05em; }
 .macroG { font-size: 1.6rem; font-weight: 900; color: #181c2e; line-height: 1.1; }
-.macroKcal { font-size: 0.82rem; color: #888; font-weight: 600; }
+.macroKcal { font-size: 0.82rem; color: #595959; font-weight: 600; }
 
 /* BMI */
 .bmiRow {
@@ -545,9 +544,8 @@
 
 .resultNote {
   font-size: 0.8rem;
-  color: #aaa;
+  color: #595959;
   line-height: 1.6;
-  margin-bottom: 16px;
   padding: 12px;
   background: #fafbff;
   border-radius: 8px;
@@ -605,7 +603,7 @@
 .table tr:last-child td { border-bottom: none; }
 .table tr:nth-child(even) td { background: #fafbff; }
 .table tr:hover td { background: #f0fdf4; }
-.tableNote { margin-top: 14px; font-size: 0.82rem; color: #999; line-height: 1.6; }
+.tableNote { margin-top: 14px; font-size: 0.82rem; color: #595959; line-height: 1.6; }
 
 /* ========================
    TIPS
@@ -683,7 +681,7 @@
 .footer {
   background: #0f172a;
   padding: 52px 0 28px;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.8);
 }
 
 .footerTop {
@@ -704,7 +702,7 @@
 }
 
 .footerLinks a {
-  color: rgba(255,255,255,0.55);
+  color: rgba(255,255,255,0.75);
   text-decoration: none;
   font-size: 0.88rem;
   font-weight: 600;
@@ -715,7 +713,7 @@
 
 .footerNote {
   font-size: 0.78rem;
-  color: rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.6);
   border-top: 1px solid rgba(255,255,255,0.08);
   padding-top: 22px;
   line-height: 1.6;
