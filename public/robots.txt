@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.kalorienrechner9.de/sitemap.xml

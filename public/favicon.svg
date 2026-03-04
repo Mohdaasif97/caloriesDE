@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Solid red background -->
+  <circle cx="128" cy="128" r="120" fill="#EF4444"/>
+  
+  <!-- Simple, bold white flame -->
+  <polygon points="128,50 165,120 150,180 128,160 106,180 91,120" fill="#FFFFFF"/>
+</svg>
